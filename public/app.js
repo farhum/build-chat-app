@@ -1,4 +1,4 @@
-const socketUrl = process.env.URL || "ws://localhost:3500";
+const socketUrl = "https://build-chat-app-i3jc.onrender.com" || "ws://localhost:3500";
 console.log("Socket:", socketUrl);
 const socket = io("ws://localhost:3500");
 
